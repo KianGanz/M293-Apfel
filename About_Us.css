@@ -1,0 +1,16 @@
+div{
+    font-family: "Monaco", "Monaco", Monospace;
+}
+.header{
+
+    background-color: #03A837;
+    width:100%;
+    height: 10%;
+    display:grid;
+    grid-template-columns: auto 10%;
+}
+.logo{
+
+    height: 100%;
+    width: 100%;
+}
