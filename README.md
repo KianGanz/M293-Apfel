@@ -3,4 +3,4 @@
 ## Mein Projekt
 
 Das Projekt besteht aus einem Onlineshop, bei dem man verschieden Arten von Äpfel kaufen kann.
-![](/Bilder/NFT_Apple.png)
+![](/Bilder/Apple1.png)
