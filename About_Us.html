@@ -7,21 +7,30 @@
 </head>
 <body>
 
-<div class="navbar">
-    <a href="#home">Home</a>
-    <a href="#news">News</a>
-    <div class="dropdown">
-        <button class="dropbtn">Dropdown 
-            <i class="fa fa-caret-down"></i>
-        </button>
-        <div class="dropdown-content">
-            <a href="#">Link 1</a>
-            <a href="#">Link 2</a>
-            <a href="#">Link 3</a>
+    <div class="dots" onclick="this.classList.toggle('active');">
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="shadow cut"></div>
+        <div class="container cut">
+          <div class="drop cut2"></div>
         </div>
-    </div> 
-</div>
-      
+        <div class="list">
+          <ul>
+            <li>
+              Home
+            </li>
+            <li>
+              Shop
+            </li>
+            <li>
+              Login
+            </li>
+          </ul>
+        </div>
+        <div class="dot"></div>
+      </div>
+      <div class="cursor"
+           onclick="document.querySelector('.dots').classList.toggle('active');"></div>
 
 <div class="header">
     <h1>Apple Online Shop</h1>
