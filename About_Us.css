@@ -131,3 +131,24 @@ div{
     width: 80px;
   }
   
+  .apple1 {
+    max-width: 10%;
+    height: auto;
+    padding: 10%;
+  }
+
+  .flexshop1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .LoginButton {
+    background-color: #199319;
+    color: white;
+    padding: 15px 25px;
+    text-decoration: none;
+  }
+  
+  .LoginButton:hover {
+    background-color: #223094;
+  }
