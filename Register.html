@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apple Online Shop</title>
+    <link rel="stylesheet" type="text/css" href="About_Us.css"/>
+
+</head>
+<body>
+    <div class="dots" onclick="this.classList.toggle('active');">
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="shadow cut"></div>
+        <div class="container cut">
+          <div class="drop cut2"></div>
+        </div>
+        <div class="list">
+            <ul>
+                <li>
+                  <a href="About_Us.html">Home</a>
+                </li>
+                <li>
+                  <a href="Shop.html">Shop</a>
+                </li>
+                <li>
+                  <a href="Login.html">Login</a>
+                </li>
+              </ul>
+        </div>
+            <div class="dot"></div>
+        </div>
+        <div class="cursor"
+           onclick="document.querySelector('.dots').classList.toggle('active');">
+        </div>
+
+<div class="header">
+    <h1>Apple Online Shop</h1>
+    <img src="./apple1.png" class="logo">
+</div>
+
+<div class="Logincenter">
+    <div></div>
+  
+    <div class="Login">
+
+        <h1>Register</h1>
+
+        <h2>Bitte füllen Sie folgende Felder aus</h2>
+
+        <h3>Geschlecht</h3>
+            <input>
+        <h3>Vorname</h3>
+            <input>
+        <h3>Nachname</h3>
+            <input>
+        <h3>E-Mail</h3>
+            <input>
+        <h3>Passwort</h3>
+            <input>
+        <h3>Adresse</h3>
+            <input>
+        <h3>PLZ</h3>
+            <input>
+        <h3>Ort</h3>
+            <input>
+        <h3>Land</h3>
+            <input>
+        <br>
+        <br>
+        <br>
+        
+        <form>
+            <div>
+              <input type="checkbox" id="terms" required>
+              <label for="terms">Ich habe die Nutzungsbedingungen gelesen und akzeptiere diese.</label>
+            </div>
+            <div>
+              <button type="proceed" onclick="window.location.href = './About_Us.html'; alert('Registered Succesful');">Registrieren</button>
+            </div>
+        </form>
+    </div>
+
+    <div></div>
+
+</div>

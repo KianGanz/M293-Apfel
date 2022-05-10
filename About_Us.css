@@ -8,13 +8,9 @@ div{
     text-align: center;
     background-color: #03A837;
     width:100%;
-    height: 20vh;
+    height: 20%;
     display:grid;
     grid-template-columns: auto 10%;
-}
-.logo{
-    height: 5%;
-    width: auto;
 }
   .dots {
     display: flex;
@@ -131,10 +127,10 @@ div{
     width: 80px;
   }
   
-  .apple1 {
-    max-width: 10%;
+  .logo {
+    max-width: 80%;
     height: auto;
-    padding: 10%;
+    padding-left: 20%;
   }
 
   .flexshop1 {
@@ -150,5 +146,12 @@ div{
   }
   
   .LoginButton:hover {
-    background-color: #223094;
+    background-color: darkgreen;
   }
+  .LoginRegister {
+    display: flex;
+  }
+  .apple1 {
+    max-width: 25%;
+  }
+
